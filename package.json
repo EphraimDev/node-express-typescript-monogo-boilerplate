@@ -10,9 +10,7 @@
     "prod": "npm run build && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "bin": {
-    "create-boilerplate": "./generate-app.js"
-  },
+  "bin": "bin/generate-app.js",
   "dependencies": {
     "app-root-path": "^3.1.0",
     "axios": "^1.5.0",
